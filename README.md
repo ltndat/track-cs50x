@@ -1,4 +1,4 @@
-# Harvard's CS50x Track by Second Mind OS (SMOS)
+# Harvard's CS50x Track by Dat N. Le
 
 > Track your thinking. Loop your learning. Build public artifacts. Powered by SMOS.
 
@@ -14,7 +14,7 @@ This is not a note-taking system.
 This is not a journaling habit.
 This is a **feedback loop protocol** — to think clearer, track deeper, and verify what you actually know.
 
-This is the **official CS50x's Track** for constructing trackable learning systems from any course, project, or domain. Use this to:
+This is the **my official CS50x's Track** for constructing trackable learning systems from any course, project, or domain. Use this to:
 
 - Structure your learning as **iteration cycles**, not passive consumption, verification (via P.A.C.E.R. protocol)
 - Produce **trackable insights**, not fleeting thoughts, log-traceable progression
