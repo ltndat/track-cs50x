@@ -1,0 +1,73 @@
+# loop/week-00-scratch/pacer.yaml
+
+loop_id: week-00
+title: '[PS]: Problem Set 0 — Scratch System Scaffold'
+date_started: 2025-05-17
+date_finished: 2025-05-19
+status: 'done'
+
+pacer:
+  plan:
+    objective: >
+      Build a logic-driven interactive system in Scratch that meets all constraints of Problem Set 0,
+      while internalizing control flow, state, and abstraction.
+    scope: >
+      Includes: CS50x Lecture 0, Scratch platform, all 6 constraint types from pset0.
+      Excludes: syntax-based programming (C/Python), performance optimization.
+    constraints: >
+      Time limit: ≤5 hours.
+      Tool constraint: Scratch only (no external scripting).
+      Fidelity: Must pass check50, and generate insight-worthy control logic.
+
+  act:
+    actions_taken:
+      - Watched Lecture 0 and mapped core CS primitives to Scratch behavior.
+      - Built interactive Scratch project from blank file.
+      - Iterated on logic structure to add conditional, loop, variable, and custom block with input.
+      - Debugged interactivity issues and script triggers.
+    tools_used: 'Scratch IDE (Web), .sb3 export'
+
+  check:
+    self_test: >
+      Manually tested behavior of each script. Verified all 6 constraint types were included.
+      Project passed check50 after revision of custom block input.
+    key_mistakes:
+      - Initially forgot input parameter in custom block → failed check.
+      - Misunderstood "script" definition as per-check50 (trigger-based, not sprite-based).
+
+  edit:
+    what_was_refactored:
+      - Split complex actions into custom block (`jumpHeight`) for clarity.
+      - Replaced hardcoded logic with conditionals tied to event/state.
+    simplifications: >
+      Compressed repeated logic using `repeat` + custom block to reduce redundancy and improve structure.
+
+  reflect:
+    insight:
+      - Visual programming can encode systems thinking without syntax load.
+      - "Meeting constraints" isn't equal to "building something that makes sense."
+      - Abstraction is more about expressing intent than reuse.
+    blockers:
+      - Scratch constraint made the logic feel artificial at times — unclear how to make outcome "meaningful".
+    claim_link: 'loop/week-00-scratch/claim.md'
+
+  delta:
+    skill_gain: "Shifted from scattered block logic to structured event-response system with internal state tracking."
+    concept_gain: 'Locked in concept of abstraction as intent encapsulation; clarified difference between loop vs condition.'
+    productivity_lever: >
+      Loop-based scratch prototyping helped visualize execution path — faster than code for initial CS primitives.
+
+  time_spent:
+    total_hours: 4.5
+    breakdown:
+      - plan: 0.5
+      - act: 2.5
+      - check: 1
+      - edit: 0.3
+      - reflect: 0.2
+
+  meta:
+    spH: 'Medium'
+    notes: >
+      Lock-in was fast due to low syntax friction.
+      Main bottleneck: meaningfully expressing abstraction in a constrained visual format (Scratch).
