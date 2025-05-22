@@ -81,7 +81,7 @@ graph TD
 - [x] Verified logic flow (loop, if, variable, custom block)
 - [x] Exported `.sb3` and validated structure
 - [x] Finalized ⌬ claim map
-- [x] Published `outputs/week-00-scratch/week-00-scratch-output.md`
+- [x] Published `outputs/week-00-scratch/output.md`
 
 ---
 

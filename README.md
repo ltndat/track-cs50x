@@ -1,4 +1,4 @@
-# Harvard's CS50x Track by Dat N. Le
+# Harvard CS50x Track by Dat N. Le
 
 > Track your thinking. Loop your learning. Build public artifacts. Powered by SMOS.
 
@@ -27,15 +27,17 @@ This is the **my official CS50x's Track** for constructing trackable learning sy
 
 ## Folder Structure
 
-| Folder       | Emoji | Role                                                  |
-| ------------ | ----- | ----------------------------------------------------- |
-| `docs/`      | 🗂️    | Schemas, maps, notes, distilled knowledge             |
-| `logs/`      | 📃    | Daily logs, blockers (`🚧`), insight pings            |
-| `loop/`      | 🔁    | P.A.C.E.R. loops: Plan → Act → Check → Edit → Reflect |
-| `outputs/`   | 🚀    | Public-facing artifacts: blog, repo, showcase         |
-| `track.json` |       | (Optional) Track metadata for integration             |
-| `LICENSE`    |       | MIT License                                           |
-| `README.md`  |       | This Document                                         |
+| Folder       | Symbol | Role                                                  |
+| ------------ | ------ | ----------------------------------------------------- |
+| `docs/`      | 🗂️     | Schemas, maps, notes, distilled knowledge             |
+| `logs/`      | 📃     | Daily logs, blockers (`🚧`), insight pings            |
+| `loop/`      | 🔁     | P.A.C.E.R. loops: Plan → Act → Check → Edit → Reflect |
+| `outputs/`   | 🚀     | Public-facing artifacts: blog, repo, showcase         |
+| `track.json` |        | (Optional) Track metadata for integration             |
+| `LICENSE`    |        | MIT License                                           |
+| `README.md`  |        | This Document                                         |
+
+> All symbols in this repo follow SMOS's [Naming Protocol](https://github.com/secondmindlab/secondmindlab/blob/19a71aa799d875c2b5dc4b7acda42394bb10f589/meta/naming-protocol-emoji.md).
 
 ## Protocol Flow
 
