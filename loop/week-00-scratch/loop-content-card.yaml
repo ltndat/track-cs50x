@@ -1,0 +1,47 @@
+loop_id: week-00-scratch
+verified_via: logs/2025-05-19-week-00-scratch.md
+loop_path: track-cs50x/loop/week-00-scratch
+
+cards:
+  - type: LoopSummary
+    layout: 16:9
+    headline: Week 00 — Logic Without Syntax
+    loop_thesis: Build structured logic using Scratch to grasp CS concepts without syntax
+    key_result: Pset 0 done (3h20m)
+    key_insight: “Programming is structured control over flow and state.”
+    stack: CS50x + MindOS
+    claim: Early log discipline compounds
+    log_ref: week-00-scratch
+    timeframe: 6–12 May 2025
+    source:
+      - loop/week-00-scratch/reflect.md
+      - docs/week-00-scratch.md
+
+  - type: LoopInsight
+    layout: 1:1
+    title: Programming ≠ Syntax — It’s Logic
+    claim: Logic = control over flow and state. Syntax is optional.
+    source:
+      - logs/2025-05-19-week-00-scratch.md
+      - reflect.md
+
+  - type: SystemPrinciple
+    layout: 3:2
+    principle: Always define behavior first, then build logic — not syntax-first.
+    origin: Block-based abstraction clarified control flow structure.
+    source:
+      - reflect.md
+      - pacer.yaml
+
+  - type: MetaInsight
+    layout: 16:9
+    meta_frame: Syntax is accidental complexity.
+    meta_claim: Starting from behavior decouples syntax from systems thinking.
+    loop_scope: week-00-scratch + future loops
+    quote: 'I stopped stacking blocks, and started asking: What behavior am I trying to create?'
+
+  - type: ChallengeSnapshot
+    layout: 3:2
+    moment: Realized I misunderstood what defined a 'script' in Scratch.
+    tension: I was stacking for constraints, not thinking in systems.
+    shift: Turned when I framed the build around player behavior instead of just blocks.

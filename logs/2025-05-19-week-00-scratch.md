@@ -10,7 +10,7 @@
 
 - `docs/week-00-scratch.md`
 - `loop/week-00-scratch/pacer.yaml`
-- `outputs/week-00-scratch/output.md`
+- `outputs/week-00-scratch/week-00-scratch-output.md`
 
 ## 2. 🚧 Blockers / Bugs / Blindspots
 
@@ -47,7 +47,7 @@
 
 - Finalize and submit `.sb3` after last check
 - Log mindstamp to `loop/week-00-scratch/claim.md`
-- Generate final public artifact at `outputs/week-00-scratch/output.md`
+- Generate final public artifact at `outputs/week-00-scratch/week-00-scratch-output.md`
 - Start PACER loop for Week 1 (C, memory, compiler model)
 
 ---

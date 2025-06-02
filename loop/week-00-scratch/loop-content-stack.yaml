@@ -1,0 +1,96 @@
+loop_id: week-00-scratch
+verified_via: logs/2025-05-19-week-00-scratch.md
+loop_path: track-cs50x/loop/week-00-scratch
+
+content_stack:
+  - type: LoopSummary
+    description: >
+      First loop in the `cs50x` track. The task appeared trivial — build a Scratch project — but the loop revealed something deeper: how primitive logic patterns manifest before code.
+
+      The context began with clarity: map Scratch elements to foundational CS logic — loops, branches, events, state. What followed was not difficulty in execution, but dissonance: doing just enough to pass felt structurally wrong. Constraints were ticked, but meaning lagged behind.
+
+      That tension triggered hypothesis refinement: structure only becomes knowledge when abstraction carries intent. Variable blocks aren’t memory. They’re **state witnesses**. Loops aren't repetition — they’re compression of intent under control.  
+
+      Refactoring came not from complexity, but from respect — respect for even the simplest construct to carry clarity.  
+
+      The result: a `.sb3` artifact that ships, yes — but more than that, a mindset pivot.  
+      From dragging blocks to aligning behavior.  
+      From syntax-free execution to structure-aware reasoning.  
+      From first click to first crystallized insight.
+
+    source:
+      - docs/week-00-scratch.md
+      - loop/week-00-scratch/claim.md
+      - loop/week-00-scratch/pacer.yaml
+      - loop/week-00-scratch/reflect.md
+      - outputs/week-00-scratch/week-00-scratch-output.md
+    output:
+      - week-00-scratch-output.md
+      - loop-summary.md
+
+  - type: InsightCard
+    description: >
+      “Abstraction is not for reuse — it's for compression of intent.”
+
+      This realization clicked during refactor: creating a custom block in Scratch wasn’t to optimize code or reduce repetition — it was to make logic *readable as thought*. Intent expressed once and reused by reference — not as optimization, but as mental decluttering.
+
+    source:
+      - logs/2025-05-19-week-00-scratch.md
+      - loop/week-00-scratch/reflect.md
+    output: loop-card.png
+
+  - type: SystemPrinciple
+    description: >
+      **Abstraction ≠ simplification. It’s declaration of structure.**
+
+      In any system — code, ops, personal OS — abstraction is what collapses noise into form. The *reason to abstract is not to shorten* but to **align logic to how the mind frames reality**.  
+      This week’s Scratch loop taught:
+
+      - Abstraction = compressing intent into callables.
+      - Every event block is an agent — structure systems as agent graphs.
+      - Design state before action — otherwise, you encode reaction without memory.
+      - Loops aren’t to repeat; they compress controlled iteration across time.
+
+      These hold true in logic systems, design specs, team protocol, and even calendar ops.
+
+    source:
+      - loop/week-00-scratch/reflect.md
+      - loop/week-00-scratch/pacer.yaml
+    output: system-principle.md
+
+  - type: MetaInsight
+    description: >
+      **Insight doesn’t come from difficulty — it comes from friction between expected simplicity and actual complexity.**
+
+      Week 00 wasn’t hard. But that’s why it stung.  
+      The mind expected triviality, but protocol forced structure. It surfaced a meta-friction:
+
+      - Why is something “easy” still hard to do well?
+      - Why does passing constraints feel empty unless logic aligns?
+      - Why does abstraction only feel “clean” when it's meaningful, not when it’s required?
+
+      This isn’t about Scratch. It’s about how builders rebel against empty checklists and crave meaning in systems — even visual ones.  
+      The loop exposed that **the problem isn’t the platform — it’s internal misalignment between *what works* and *what resonates*.**
+
+    source:
+      - logs/*
+      - loop/week-00-scratch/reflect.md
+    output: meta-insight-thread.md
+
+  - type: ChallengeSnapshot
+    description: >
+      **"I passed check50... but I didn’t respect the result."**
+
+      That moment — after ticking all the boxes — created a strange silence.  
+      The project was done. Technically correct. But intellectually empty.  
+      That triggered a complete refactor of the custom block, redesign of conditions, and realization that structural clarity matters — even in toy environments.
+
+      The challenge wasn’t technical. It was existential:  
+      *"Is this enough? Does this carry my logic — or just mimic a checklist?"*
+
+      The hero’s arc here was going from “passing” to “expressing.”
+
+    source:
+      - logs/2025-05-19-week-00-scratch.md
+      - loop/week-00-scratch/reflect.md
+    output: challenge-snapshot.png

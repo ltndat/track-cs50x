@@ -33,21 +33,13 @@ Design a behavior-driven logic system using Scratch primitives to simulate contr
 
 ### Deliverable
 
-Project implemented in Scratch using required logic patterns:
+Fully working `.sb3` file with the following:
 
-- Multi-agent structure using two sprites, each driven by event-triggered scripts
-- Conditional logic, variable tracking, and repetition encapsulated in reusable blocks
-- Behavior mapped from interaction triggers to animated responses
+- Amon sprite: conditional attack behavior with custom block (`jumpHeight`)
+- Anina sprite: animated loop and interaction trigger
+- Variable tracking (`score`), event-driven scripts, and branching logic
 
-- **Location**: _(Not shared publicly per CS50 Academic Honesty Policy — retained privately for self-verification)_
-
-## Logic Summary (Pseudocode)
-
-- When `green flag` clicked → check if `key space pressed?`  
-   → If true → `say "Punch!"`
-- Custom block `jumpHeight(height)` → repeats vertical move by input parameter
-- Second sprite uses `repeat` block to animate movement
-- Variable `score` increments on event
+- **Location**: `outputs/week-00-scratch/scratch.sb3`
 
 ---
 
@@ -99,11 +91,10 @@ Project implemented in Scratch using required logic patterns:
 - [cs50.harvard.edu/x](https://cs50.harvard.edu/x)
 - `loop/week-00-scratch/claim.md`
 - `docs/week-00-scratch.md`
-- ~~ `outputs/week-00-scratch/scratch.sb3` ~~
+- `outputs/week-00-scratch/scratch.sb3`
 
 > 📏 **Protocol Tag**: `Verified: logs/2025-05-19-week-00-scratch.md`  
-> 📣 ⌬ Claim Origin: `"Programming is structured control over flow and state"`  
-> 🔒 Artifact withheld in accordance with [CS50 Academic Honesty Policy](https://cs50.harvard.edu/x/honesty/)
+> 📣 ⌬ Claim Origin: `"Programming is structured control over flow and state"`
 
 ---
 
