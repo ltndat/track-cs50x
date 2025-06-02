@@ -1,7 +1,6 @@
 # loop-summary.md
 
-Will publish from here. First public loop. Week 00 — cs50x. Starting from Harvard.
-
+Will publish from here. Starting from Harvard. First public loop. Week 00 — cs50x.
 Scratch.  
 Honestly didn’t expect much. Just a box-checker to pass.
 
