@@ -37,7 +37,7 @@ This is the **my official CS50x's Track** for constructing trackable learning sy
 | `LICENSE`    |        | MIT License                                           |
 | `README.md`  |        | This Document                                         |
 
-> All symbols in this repo follow SMOS's [Naming Protocol Symbol](https://github.com/secondmindlab/secondmindlab/blob/19a71aa799d875c2b5dc4b7acda42394bb10f589/meta/naming-protocol-symbol.md).
+> All symbols in this repo follow SMOS's [Naming Protocol Symbol](https://github.com/secondmindlab/secondmindlab/blob/1c5ba0bd92991554d946895a242d989ae0dc3877/meta/naming-protocol-symbol.md).
 
 ## Protocol Flow
 
