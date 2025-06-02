@@ -37,7 +37,7 @@ content_stack:
     source:
       - logs/2025-05-19-week-00-scratch.md
       - loop/week-00-scratch/reflect.md
-    output: loop-card.png
+    output: loop-insight.png
 
   - type: SystemPrinciple
     description: >
@@ -77,20 +77,21 @@ content_stack:
       - loop/week-00-scratch/reflect.md
     output: meta-insight-thread.md
 
-  - type: ChallengeSnapshot
+  - type: ArtifactShowcase
+    layout: 3:2
+    artifact_name: Scratch 2-sprite system
     description: >
-      **"I passed check50... but I didn’t respect the result."**
+      A behavior-driven logic prototype built entirely with visual blocks.
 
-      That moment — after ticking all the boxes — created a strange silence.  
-      The project was done. Technically correct. But intellectually empty.  
-      That triggered a complete refactor of the custom block, redesign of conditions, and realization that structural clarity matters — even in toy environments.
+      - Sprite 1: responds to user input with conditional behavior + parameterized motion  
+      - Sprite 2: executes looped animation and state-linked reactions  
+      - Project includes variable tracking, a custom abstraction block, and multiple reactive scripts
 
-      The challenge wasn’t technical. It was existential:  
-      *"Is this enough? Does this carry my logic — or just mimic a checklist?"*
+      Artifact verified to meet all structural constraints in CS50x Problem Set 0.
 
-      The hero’s arc here was going from “passing” to “expressing.”
+      In accordance with academic honesty policies, the `.sb3` file is not shared publicly.
+      Project structure and reflections are documented in the output + loop logs.
 
-    source:
-      - logs/2025-05-19-week-00-scratch.md
-      - loop/week-00-scratch/reflect.md
-    output: challenge-snapshot.png
+    source: outputs/week-00-scratch
+    file: outputs/week-00-scratch/scratch.sb3
+    cover_image: artifact-card.png

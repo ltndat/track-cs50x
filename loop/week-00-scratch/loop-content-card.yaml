@@ -40,8 +40,14 @@ cards:
     loop_scope: week-00-scratch + future loops
     quote: 'I stopped stacking blocks, and started asking: What behavior am I trying to create?'
 
-  - type: ChallengeSnapshot
+  - type: ArtifactShowcase
     layout: 3:2
-    moment: Realized I misunderstood what defined a 'script' in Scratch.
-    tension: I was stacking for constraints, not thinking in systems.
-    shift: Turned when I framed the build around player behavior instead of just blocks.
+    artifact_name: Scratch 2-sprite system
+    source: outputs/week-00-scratch
+    description: >
+      - Sprite 1: responds to input with conditional attacks + jump logic  
+      - Sprite 2: loops movement while tracking state
+    file: outputs/week-00-scratch/scratch.sb3
+    tech: MIT Scratch
+    runtime: ~4m total logic runtime across scripts
+    cover_image: artifact-card.png
