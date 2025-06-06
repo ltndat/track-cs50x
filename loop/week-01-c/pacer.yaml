@@ -1,1 +1,60 @@
 loop_id: week-01-c
+title: '[PSET]: CS50x Week 1 – Procedural Protocols in C'
+date_started: 2025-05-20
+date_finished: 2025-05-22
+status: 'done'
+
+pacer:
+  plan:
+    objective: 'Gain command over low-level procedural control and protocol-style problem solving in C.'
+    scope: 'Includes: Lecture 1, PSet1 (hello, mario, cash, credit). Excludes: function abstraction (Week 2+).'
+    constraints: 'No reuse of prior C experience. Local-only setup (no codespace). Tight scope: submit-ready, style-clean code only.'
+
+  act:
+    actions_taken:
+      - 'Watched CS50x Lecture 1 deeply, traced flow manually.'
+      - 'Built and shipped: hello.c, me.c, mario (less + more), cash, credit.'
+      - 'Refactored credit.c into modular functions for system clarity.'
+      - 'Explored terminal ↔ logic loop until execution felt deterministic.'
+    tools_used: 'VS Code (local devcontainer), CS50 CLI toolchain, bash script traces.'
+
+  check:
+    self_test: 'make → ./ → check50 → style50. Terminal outputs + logic simulation. Manual parity validation (e.g., Luhn sum by hand).'
+    key_mistakes:
+      - 'Missed newline in printf → check50 fails despite logic pass.'
+      - 'Overestimated mario (more) simplicity → alignment bug blindspot.'
+      - 'Confused position parity in Luhn logic (off-by-one in digit loop).'
+
+  edit:
+    what_was_refactored:
+      - 'Rewrote credit.c into 5 clear functions (validation, prefix, length).'
+      - 'Extracted spacing + loop logic in mario into nested mental model.'
+    simplifications: 'Validated greedy logic → removed over-nested `while` constructs in cash.c.'
+
+  reflect:
+    insight:
+      - 'Loop = geometry = controlled system pattern. From visual to structure.'
+      - 'Checksum isn’t magic. It’s a fingerprint built on digit topology.'
+      - 'Debug = trace over guess. Mental simulation is unreliable under pressure.'
+    blockers:
+      - 'Still mapping spacing logic to general matrix structure.'
+      - 'Prefix-extraction edge cases in credit remain unclear on non-standard cards.'
+    claim_link: 'loop/week-01-c/claim.md'
+
+  delta:
+    skill_gain: 'Moved from brute-forcing logic to modeling control loops as spatial/temporal layers.'
+    concept_gain: 'Mental model of nested loops as visual computation. First abstraction of validation as protocol.'
+    productivity_lever: 'Refactor pattern: build → break → modularize → assert logic. Now reusable in future problems.'
+
+  time_spent:
+    total_hours: 4.5
+    breakdown:
+      - plan: 0.5
+      - act: 2.5
+      - check: 1
+      - edit: 0.3
+      - reflect: 0.2
+
+  meta:
+    spH: 'High'
+    notes: 'Lock-in achieved fast due to protocol discipline. Refactor was slow — insight needed to emerge before action. Real work began once I stopped trying to "just make it work."'

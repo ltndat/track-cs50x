@@ -13,8 +13,8 @@
 
 ## Evidence
 
-- Verified via: [`logs/2025-05-19-week-00-scratch.md`](../../logs/2025-05-19-week-00-scratch.md)
-- Output artifact: [`outputs/week-00-output.md`](../../outputs/week-00-output.md)
+- Verified via: [`logs/2025-05-19-week-00-scratch.md`](/logs/2025-05-19-week-00-scratch.md)
+- Output artifact: [`outputs/week-00-output.md`](/outputs/week-00-output.md)
 - Source of knowledge: CS50x Lecture 0 + Problem Set 0
 
 ## Note

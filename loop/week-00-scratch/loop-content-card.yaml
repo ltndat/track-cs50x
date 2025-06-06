@@ -26,7 +26,7 @@ cards:
       - reflect.md
 
   - type: SystemPrinciple
-    layout: 3:2
+    layout: 1:1
     principle: Always define behavior first, then build logic — not syntax-first.
     origin: Block-based abstraction clarified control flow structure.
     source:
