@@ -1,0 +1,59 @@
+loop_id: week-01-c
+verified_via: logs/2025-05-21-week-01-c.md
+loop_path: track-cs50x/loop/week-01-c
+
+cards:
+
+  - type: LoopSummary
+    layout: 16:9
+    headline: Week 01 — C as Protocol, Not Just Code
+    loop_thesis: Procedural logic becomes real only when output, loop, and control converge under structure.
+    key_result: PSet1 shipped, submitted, refactored, validated (4.5h loop)
+    key_insight: “Debugging is not correction — it's control tracing.”
+    stack: CS50x + Second Mind OS
+    claim: You don’t learn loops — you internalize spatial protocols.
+    log_ref: week-01-c
+    timeframe: 18–22 May 2025
+    source:
+      - loop/week-01-c/reflect.md
+      - docs/week-01-c.md
+
+  - type: LoopInsight
+    layout: 1:1
+    title: Control lives in trace
+    claim: The bug rarely lives in the crash. It lives upstream — in an unchecked assumption.
+    source:
+      - logs/2025-05-21-week-01-c.md
+      - reflect.md
+
+  - type: ArtifactShowcase
+    layout: 3:2
+    artifact_name: PSet1: hello → credit
+    description: >
+      - `hello.c`: compiler + run pipeline sanity  
+      - `mario_more.c`: nested loops → visual geometry  
+      - `cash.c`: greedy logic correctness  
+      - `credit.c`: checksum, modular refactor, type classification
+    file:
+      - outputs/week-01-c/hello.c
+      - outputs/week-01-c/mario_more.c
+      - outputs/week-01-c/credit.c
+    tech: C + CLI toolchain (local devcontainer)
+    runtime: ~4.5h loop
+    source: outputs/week-01-c
+    cover_image: artifact-card.png
+
+  - type: SystemPrinciple
+    layout: 1:1
+    principle: Loop structure is spatial logic, not repetition.
+    origin: Mario’s alignment wasn’t a loop problem — it was a protocol misalignment.
+    source:
+      - reflect.md
+      - pacer.yaml
+
+  - type: MetaInsight
+    layout: 16:9
+    meta_frame: Submission isn’t mastery. Reflection is.
+    meta_claim: Insight doesn’t arrive when code runs — it arrives when the abstraction stabilizes across cases.
+    loop_scope: week-01-c + all future psets
+    quote: "Check50 passed, but the logic still felt fragile. That’s when I knew it wasn’t about passing."
