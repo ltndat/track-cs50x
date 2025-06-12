@@ -65,13 +65,6 @@ Each learning unit runs through the **P.A.C.E.R. loop** — a minimal feedback p
 | `Edit`    | Refactor, simplify, correct blindspots  |
 | `Reflect` | Meta-log insights, blockers, claims     |
 
-## License
-
-MIT — use freely under your personal or team workflows.
-
-> **Note**: All forks must include the following in `README.md`:  
-> _Powered by [**Second Mind OS Lab**](https://github.com/secondmindlab) — Protocol-first learning system for cognitive leverage._
-
 ## Maintained by
 
 **🧱 Second Mind OS Lab**
