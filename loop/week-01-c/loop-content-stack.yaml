@@ -40,7 +40,7 @@ content_stack:
       Debugging is not correction — it’s tracing. 
       The bug rarely lives in the line that crashes. It lives upstream, in the unchecked assumption. Once I treated each print as a system probe, logic surfaced fast — not from intelligence, but from visibility.
     source:
-      - logs/2025-06-02-week-01-c.md
+      - logs/2025-05-21-week-01-c.md
       - loop/week-01-c/reflect.md
     output: loop-insight.png
 
@@ -64,3 +64,33 @@ content_stack:
       - logs/*
       - reflect.md
     output: meta-insight-thread.md and meta-insight.png
+
+  - type: ArtifactShowcase
+    description: >
+      Week 01 Deliverables: C as Protocol Design
+
+      Each file here isn’t just functional — it’s traceable.  
+      Built under terminal-first, printf-traced, check50-verified flow:
+
+      - `hello.c` → Protocol bootstrap (compile → execute)  
+      - `me.c` → First I/O scaffold (get_string, format logic)  
+      - `mario_less.c` → Nested loop mapped to spatial symmetry  
+      - `mario_more.c` → Mirrored geometry, spacing logic stabilized  
+      - `cash.c` → Greedy logic modeled and validated under US coin rules  
+      - `credit.c` → Full pipeline: input → checksum → prefix-branching
+
+      Path: `outputs/week-01-c/`  
+      Each file is `style50` clean and `check50` passed.  
+      But more important — each represents a protocol, not just a program.
+
+      “The compiler accepted the syntax. I accepted the logic.”
+
+    file:
+      - outputs/week-01-c/hello.c
+      - outputs/week-01-c/me.c
+      - outputs/week-01-c/mario_less.c
+      - outputs/week-01-c/mario_more.c
+      - outputs/week-01-c/cash.c
+      - outputs/week-01-c/credit.c
+    source: outputs/week-01-c
+    output: artifact-card.png
