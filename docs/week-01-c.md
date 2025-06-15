@@ -1,8 +1,8 @@
 # Week 01 — C Fundamentals & System Bootstrapping
 
-> Track: cs50x
-> Week: 01
-> Protocol: Second Mind OS
+> Track: cs50x  
+> Week: 01  
+> Protocol: Second Mind OS  
 > Format: Verified Thinking Notes + Schema-Driven Capture
 
 ## 1. Objective

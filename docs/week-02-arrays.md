@@ -1,8 +1,8 @@
 # Week 02 — Arrays, Strings, CLI
 
-> Track: cs50x
-> Week: 02
-> Protocol: Second Mind OS
+> Track: cs50x  
+> Week: 02  
+> Protocol: Second Mind OS  
 > Format: Verified Thinking Notes + Schema-Driven Capture
 
 ## 1. Objective
