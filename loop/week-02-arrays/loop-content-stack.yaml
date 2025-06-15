@@ -29,7 +29,7 @@ content_stack:
     source:
       - logs/2025-05-25-week-02-arrays.md
       - loop/week-02-arrays/reflect.md
-    output: loop-insight.png
+    output: loop-insight.md and loop-card.png
 
   - type: ArtifactShowcase
     description: >
