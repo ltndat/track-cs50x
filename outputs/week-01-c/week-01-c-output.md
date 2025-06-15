@@ -92,12 +92,12 @@ if ((prefix == 34 || prefix == 37) && length == 15)
 
 ## References
 
-- [https://cs50.harvard.edu/x/2025/weeks/1/](https://cs50.harvard.edu/x/2025/weeks/1/)
+- [cs50.harvard.edu/x/2025/weeks/1/](https://cs50.harvard.edu/x/2025/weeks/1/)
 - [https://manual.cs50.io/](https://manual.cs50.io/)
 - [CS50’s Academic Honesty](https://cs50.harvard.edu/x/honesty/).
 - [loop/week-01-c/reflect.md](/loop/week-01-c/reflect.md)
 
-> 📏 **Protocol Tag**: `Verified: logs/2025-05-21-week-01-c.md`
+> 📏 **Protocol Tag**: `Verified: logs/2025-05-21-week-01-c.md`  
 > 📣 ⌬ Claim Origin: `"Loops = spatial protocols"`
 
 ---

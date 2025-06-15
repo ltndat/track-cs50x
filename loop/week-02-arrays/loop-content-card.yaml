@@ -1,0 +1,56 @@
+loop_id: week-02-arrays
+verified_via: logs/2025-05-25-week-02-arrays.md
+loop_path: track-cs50x/loop/week-02-arrays
+
+cards:
+
+  - type: LoopSummary
+    layout: 16:9
+    headline: Week 02 — From Code to Cipher Systems
+    loop_thesis: Translate string manipulation in C into portable transformation logic across readability and encryption problems.
+    key_result: Full PSet2 delivered: Scrabble, Caesar, Readability, Substitution (under 36h)
+    key_insight: “Transformation logic lives upstream — once normalized, output becomes inevitable.”
+    stack: CS50x + MindOS
+    claim: Pacing isn’t delay — it’s visible logic integrity.
+    log_ref: week-02-arrays
+    timeframe: 23-25 May 2025
+    source:
+      - loop/week-02-arrays/reflect.md
+      - docs/week-02-arrays.md
+
+  - type: LoopInsight
+    layout: 1:1
+    title: ASCII as Coordinate Math
+    claim: String processing isn’t syntax — it’s spatial computation over addressable characters.
+    source:
+      - logs/2025-05-25-week-02-arrays.md
+      - loop/week-02-arrays/reflect.md
+
+  - type: ArtifactShowcase
+    layout: 3:2
+    artifact_name: Modular Cipher Systems in C
+    description: >
+      - `scrabble.c`: maps ASCII to scores with upper/lower handling  
+      - `readability.c`: parses text to compute readability index  
+      - `caesar.c`: rotates letters with modulo-mapped key  
+      - `substitution.c`: validates and maps full alphabet key
+    file: outputs/week-02-arrays/
+    tech: C (CS50 stack)
+    runtime: ~6.7h loop (build + reflect)
+    source: outputs/week-02-arrays
+    cover_image: artifact-card.png
+
+  - type: SystemPrinciple
+    layout: 1:1
+    principle: Normalize → Validate → Transform → Output.
+    origin: Derived from repeated char-mapping systems that required upstream validation to prevent downstream chaos.
+    source:
+      - loop/week-02-arrays/reflect.md
+      - loop/week-02-arrays/pacer.yaml
+
+  - type: MetaInsight
+    layout: 16:9
+    meta_frame: Speed is trustless if invisible.
+    meta_claim: Accelerated learning isn’t risky — unless it leaves no trace.
+    loop_scope: week-02-arrays + audit-aware loops
+    quote: "Speed isn’t the problem. Invisibility is."

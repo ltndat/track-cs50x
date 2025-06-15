@@ -1,0 +1,80 @@
+loop_id: week-02-arrays
+
+title: '[PS]: Arrays, Strings, CLI – Scrabble, Caesar, Readability, Substitution'
+date_started: 2025-05-23
+date_finished: 2025-05-25
+status: 'done'
+
+pacer:
+  plan:
+    objective: >
+      Construct cognitive scaffolding for memory-safe string processing,
+      CLI-driven encryption, and ASCII-based logic pipelines in C.
+    scope: >
+      Includes all 4 PSet2 problems (Scrabble, Caesar, Readability, Substitution),
+      compiles all core concepts from lecture Week 2: arrays, string ops, ASCII,
+      command-line args, validation logic.
+    constraints: >
+      Compressed time window: <36h for full cycle. No external reference allowed
+      beyond docs and official CS50x. No automation. No reuse from prior courses.
+
+  act:
+    actions_taken:
+      - Completed full set of PSet2 problems with modular, refactorable codebase.
+      - Implemented key validation engine and encryption via char-map abstraction.
+      - Practiced edge-case tracing with manual and check50 tests.
+      - Constructed conceptual claim map post-submission.
+    tools_used: 'C (clang via make), check50, style50, terminal I/O only'
+
+  check:
+    self_test: >
+      Each problem passed check50 + edge case battery (manual). Logic traced via
+      printf during development. Errors cross-validated with own mental model.
+    key_mistakes:
+      - Initial rotate() missed key % 26 wrap.
+      - Integer division in readability led to miscalculated index.
+      - Substitution key uniqueness validation failed lowercase normalization.
+
+  edit:
+    what_was_refactored:
+      - isolate substitution() to char-level logic unit
+      - removed inline logic for case handling → abstracted to helper
+    simplifications: >
+      Shifted validation logic to early exit phase, reduced branching.
+      Rewrote string transformations as pure functions.
+
+  reflect:
+    insight:
+      - Modulo logic is architecture. Not math.
+      - ASCII normalization is not a trick — it’s a mental coordinate system.
+      - Validation must come upstream — retrofitting logic post-transform breaks control.
+      - Submission pacing is part of protocol, not just a social defense.
+    blockers:
+      - Ambiguity in time-permission envelope — how much “speed” is too much?
+      - Tension between build pace and perception of “cheating”.
+    claim_link: 'loop/week-02-arrays/claim.md'
+
+  delta:
+    skill_gain: 'Encrypted text systems with char maps and key validation.'
+    concept_gain: >
+      CLI interface integration into core system logic,
+      Memory-to-transform pipeline in C using ASCII bounds.
+    productivity_lever: >
+      Abstracted rotate()/substitute() flow → reused across Caesar/Substitution.
+      Timeboxing + deliberate pacing → audit-safe loop execution.
+
+  time_spent:
+    total_hours: 6.7
+    breakdown:
+      - plan: 0.4
+      - act: 4.2
+      - check: 1.0
+      - edit: 0.6
+      - reflect: 0.5
+
+  meta:
+    spH: 'High'
+    notes: >
+      Loop locked early due to strong conceptual base + repeatable logic patterns.
+      Most slowdown occurred during audit-resilient submission planning,
+      not in actual implementation.
