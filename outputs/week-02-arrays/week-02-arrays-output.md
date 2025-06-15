@@ -1,19 +1,18 @@
 # Output — Week 02: Arrays, Strings, Cipher Logic
 
-## Task
+## 1. Task
 
 - **Goal**: Build and verify 4 CLI-based systems in C that perform scoring, readability analysis, and encryption using arrays, strings, and ASCII mappings.
 - **Type**: `code` / `system design` / `debug` / `protocol reflection`
 - **Trigger**: Initiated from `loop/week-02-arrays/pacer.yaml`, confirmed via `claim.md` and `logs/2025-05-25-week-02-arrays.md`
-- **Fingerprint**: ⚓ _Second Personal OS_
 
-## Process Snapshot
+## 2. Process Snapshot
 
-### Problem Definition
+#### 2.1 Problem Definition
 
 > How do we construct reliable memory-safe programs in C that take raw input, process it via transformation logic (score, shift, map), and return output predictably, modularly, and explainably?
 
-### Approach & Thought Process
+#### 2.2 Approach & Thought Process
 
 - **Scrabble**: map ASCII chars to score index → used `POINTS[c - 'A']`
 - **Readability**: parse text → count words/sentences/letters → apply Coleman–Liau formula
@@ -24,18 +23,18 @@
 > Structured all validation logic upstream before transformation steps
 > Pacing was not just time management — it was _signal optimization_ for audit integrity
 
-### Tooling / Stack
+#### 2.3 Tooling / Stack
 
 - **Lang**: C (CS50 lib + stdlib)
 - **Stack**: Local dev via `make`, `debug50`, `check50`, `style50`
 - **Runtime**: Terminal-based I/O only
 - **Logging**: Tracked via `logs/`, `reflect.md`, `claim.md`
 
-## Output Artifact
+## 3. Output Artifact
 
 > 🔒 Per **CS50’s Academic Honesty**, output files and solution logic are **not shared publicly**.
 
-### Deliverables
+#### 3.1 Deliverables
 
 - 4 full C programs:
 
@@ -59,43 +58,43 @@ char rotate(char c, int key)
 }
 ```
 
-## 🚫 Breakdown & Bugs
+## 4. 🚫 Breakdown & Bugs
 
-### Stucks / Bugs Hit
+#### 4.1 Stucks / Bugs Hit
 
 - Off-by-one error in Caesar key rotation
 - Incorrect rounding in readability index
 - Substitution validation: missed case sensitivity → false pass with duplicate chars
 - CLI parsing edge cases (empty key, no argv\[1]) caused early segmentation faults
 
-### Gaps / TODOs
+#### 4.2 Gaps / TODOs
 
 - Would add `test.c` files next loop for structured unit tests
 - Key validation in substitution could be broken into even finer-grained validators
 - Lacked time to build visualization trace of encryption flow (planned for Week 04 reflections)
 
-## 🔁 Feedback Loop
+## 5. 🔁 Feedback Loop
 
-### What Changed After Feedback?
+#### 5.1 What Changed After Feedback?
 
 - Internal self-review pushed modularity: broke out `substitute()` and `rotate()` early
 - Spacing of submit50 runs adapted after reflection on system visibility → added "human signal"
 - Claims clarified: ASCII mapping is not syntax — it’s a **structure of transformation logic**
 
-## Learning Summary
+## 6. Learning Summary
 
 - Gained confidence in **ASCII math + array indexing** as base of string transformation
 - Internalized the **CLI → validate → normalize → transform → output** pipeline as reusable template
 - Refactored from "solve problem" → "design cognitive scaffold" → now building **pattern engines**, not just scripts
 
-## Insight Card
+## 7. Insight Card
 
 - ⌬ Claim: `"Encryption is deterministic transformation over normalized space"`
 - Situation: `Substitution.c logic construction`
 - Impact: `Reframed encryption as a pure function, decoupled from cryptography`
 - Verified: [`logs/2025-05-25-week-02-arrays.md`](/logs/2025-05-25-week-02-arrays.md)
 
-## References
+## 8. References
 
 - [cs50.harvard.edu/x/2025/weeks/2/](https://cs50.harvard.edu/x/2025/weeks/2/)
 - [CS50’s Academic Honesty](https://cs50.harvard.edu/x/honesty/).

@@ -5,7 +5,7 @@
 > Protocol: Second Mind OS
 > Format: Verified Thinking Notes + Schema-Driven Capture
 
-## Objective
+## 1. Objective
 
 - **Core Concept(s)**:
 
@@ -21,7 +21,7 @@
 - **Protocol Scope**:
   This note anchors the **PACER loop** across Lecture 1 and Problem Set 1. It acts as a **loop-state snapshot** prior to abstraction elevation.
 
-## Concept Map / Schema
+## 2. Concept Map & Schema / Schema
 
 ```mermaid
 graph TD
@@ -43,7 +43,7 @@ graph TD
   - `Cash`: greedy optimization
   - `Mario`: visual loop → geometry
 
-## Mental Models
+## 3. Mental Models
 
 | Concept       | Model / Metaphor                           | First-principle Breakdown               |
 | ------------- | ------------------------------------------ | --------------------------------------- |
@@ -51,7 +51,7 @@ graph TD
 | Luhn Checksum | Double-pass verifier → data fingerprinting | Split → Transform → Validate → Classify |
 | CLI Pipeline  | Manual compiler → build loop               | Human-triggered automation chain        |
 
-## 📣 ⌬ Insight Claims
+## 4. 📣 ⌬ Insight Claims
 
 | ⌬ ID | Claim Statement                                                           | Trigger Point        | Verified In                    |
 | ---- | ------------------------------------------------------------------------- | -------------------- | ------------------------------ |
@@ -60,20 +60,20 @@ graph TD
 | 003  | "If you can modularize logic, you can protocolize thought."               | Refactor credit.c    | `loop/week-01-c/claim.md`      |
 | 004  | "Greedy works not because it’s simple, but because the domain is convex." | Cash logic test      | `loop/week-01-c/reflect.md`    |
 
-## 🚧 Blockers / Ambiguities
+## 5. 🚧 Blockers & Ambiguities
 
 - \~ Re-mapping alignment logic in `Mario` to a general spacing algorithm
 - \~ `Credit`: alternate card length handling and prefix accuracy under different locales
 - \~ Validating behavioral consistency between `while` vs `do...while` with edge case inputs
 
-## 🧪 Tests / Self-Checks
+## 7. 🧪 Tests & Self-Checks
 
 1. Why must `get_long()` be used instead of `get_int()` in `credit.c`?
 2. Recreate the pyramid from `mario.c` for height = 5, using a hand-drawn matrix.
 3. What logic breaks if we forget to add `\n` in `printf()`?
 4. Simulate Luhn checksum by hand for: `4003600000000014`.
 
-## 📃 Trace Log / Learning Path
+## 8. Trace Log & Learning Path
 
 - [x] VS Code + Docker devcontainer setup
 - [x] Completed: `hello.c`, `hello_me.c`, `mario_less.c`, `cash.c`
@@ -81,7 +81,7 @@ graph TD
 - [x] Refactored `credit.c` into modular functions
 - [x] Style-verified & submitted all code
 
-## 🔁 Linked Protocol Loops
+## 9. 🔁 Linked Protocol Loops
 
 | Loop Phase | Linked File                             |
 | ---------- | --------------------------------------- |

@@ -1,6 +1,6 @@
 # Log — 2025-05-19-week-00-scratch
 
-## 1. Focus Unit / Context
+## 1. Focus Unit & Context
 
 **Track:** cs50x  
 **Week:** 00  
@@ -12,21 +12,21 @@
 - `loop/week-00-scratch/pacer.yaml`
 - `outputs/week-00-scratch/week-00-scratch-output.md`
 
-## 2. 🚧 Blockers / Bugs / Blindspots
+## 2. 🚧 Blockers, Bugs, and Blindspots
 
 - Confusion on what technically counts as a “script” → resolved via test: `new trigger block = new script`
 - Misinterpretation of `custom block requirement` → input parameter was missing in early version
 - Low motivation caused by project not feeling intellectually deep despite being structurally complete
 - Edge case: loop and conditional felt “synthetic” when added only to tick checkboxes
 
-## 3. 🛠️ Resolution / Fix Strategy
+## 3. 🛠️ Resolution & Fix Strategy
 
 - Used checklist-based verification → confirmed each of the 6 required elements
 - Abstracted jump logic into custom block (`jumpHeight`) → parameter added after failure in early check
 - Added visual debug behavior (e.g. `say “Punch!”`) to verify event triggers mapped correctly
 - Rewrote conditional to respond to actual state instead of hard-coded key press for clarity
 
-## 4. 📣 Insights Claims (`⌬`)
+## 4. 📣 Insights & Claims (`⌬`)
 
 - ⌬ Programming starts before syntax — logic clarity precedes code
 - ⌬ Custom blocks aren’t for reuse, they’re for **compressing intent** into addressable units

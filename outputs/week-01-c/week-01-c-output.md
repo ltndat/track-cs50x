@@ -1,20 +1,20 @@
 # Output — Week 01: C Fundamentals, Protocol Control
 
-## Task
+## 1. Task
 
 - **Goal**: Complete CS50x Problem Set 1 — implement five core C programs to establish mastery over procedural control, input validation, spatial loop logic, and modular refactor.
 - **Type**: `code` / `debug` / `refactor` / `mental model crystallization`
 - **Trigger**: [loop/week-01-c/pacer.yaml](/loop/week-01-c/pacer.yaml)
 
-## Process Snapshot
+## 2. Process Snapshot
 
-### Problem Definition
+#### 2.1 Problem Definition
 
 How can I design predictable, traceable, submission-ready C programs that reflect both system-level thinking and cognitive clarity?
 
 > Not just “get the output” — but own the pipeline: input → logic → structure → output.
 
-### Approach & Thought Process
+#### 2.2 Approach & Thought Process
 
 - Internalized I/O loop logic before coding: start with protocol sketch
 - Built programs incrementally: print → validate → loop → edge case
@@ -22,15 +22,15 @@ How can I design predictable, traceable, submission-ready C programs that reflec
 - Simulated `credit` checksum manually → locked Luhn logic fully
 - Moved from "get it to work" → to "get it to represent"
 
-### Tooling / Stack
+#### 2.3 Tooling / Stack
 
 - **Languages**: C (CS50 standard)
 - **Environment**: Local devcontainer (VS Code, bash)
 - **Stack**: `make`, `check50`, `style50`, terminal-based trace-debug loop
 
-## Output Artifact
+## 3. Output Artifact
 
-### Deliverable
+#### 3.1 Deliverable
 
 > 🔒 Per **CS50’s Academic Honesty**, output files and solution logic are **not shared publicly**.
 
@@ -53,44 +53,44 @@ if ((prefix == 34 || prefix == 37) && length == 15)
 }
 ```
 
-## 🚫 Breakdown & Bugs
+## 4. 🚫 Breakdown & Bugs
 
-### Stucks / Bugs Hit
+#### 4.1 Stucks / Bugs Hit
 
 - `mario_more`: misaligned spacing from off-by-one in nested loop
 - `credit`: wrong Luhn parity index → invalid checksum
 - `cash`: overcomplicated greedy via nested `while` instead of linear breakdown
 - Missed `\n` in output → `check50` false negative
 
-### Gaps / TODOs
+#### 4.2 Gaps / TODOs
 
 - `credit`: not yet tested on non-US formats
 - Add full pseudocode-first phase before next PSet
 - Alias `make+run+check+style` into devloop
 
-## 🔁 Feedback Loop
+## 5. 🔁 Feedback Loop
 
-### What Changed After Feedback?
+#### 5.1 What Changed After Feedback?
 
 - Added `printf` traces into all logic blocks before final submission
 - Restructured `credit.c` into modular pattern (5 functions)
 - Rechecked all edge cases using real-world test values (e.g., real VISA/AMEX test nums)
 
-## Learning Summary
+## 6. Learning Summary
 
 - Shifted from procedural to **protocol mindset**
 - Loops now understood as **cognitive scaffolds**, not just syntax
 - Built **modularization instinct**: refactor = isolate = clarify
 - **Debugging** now = trace visualization, not reactive panic
 
-## Insight Card
+## 7. Insight Card
 
 - ⌬ Claim: `Control logic emerges when spatial output is owned through nested patterns`
 - Situation: `While debugging pyramid alignment in mario_more`
 - Impact: `Locked visual-to-loop mapping → usable in matrix/grid problems`
 - Verified: [logs/2025-05-21-week-01-c.md](/logs/2025-05-21-week-01-c.md)
 
-## References
+## 8. References
 
 - [cs50.harvard.edu/x/2025/weeks/1/](https://cs50.harvard.edu/x/2025/weeks/1/)
 - [https://manual.cs50.io/](https://manual.cs50.io/)

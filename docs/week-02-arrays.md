@@ -5,7 +5,7 @@
 > Protocol: Second Mind OS
 > Format: Verified Thinking Notes + Schema-Driven Capture
 
-## Objective
+## 1. Objective
 
 - **Core Concepts**:
 
@@ -26,7 +26,7 @@
   - This note anchors Check + Reflect phase of `week-02-arrays` loop
   - Integrates claims and looped decisions from PSet2 executions
 
-## Concept Map / Schema
+## 2. Concept Map & Schema / Schema
 
 ```mermaid
 graph TD
@@ -41,7 +41,7 @@ graph TD
   I --> J[Check50, Debug50, Manual Cases]
 ```
 
-## Mental Models
+## 3. Mental Models
 
 | Concept       | Model / Metaphor                      | First-principle Breakdown                         |
 | ------------- | ------------------------------------- | ------------------------------------------------- |
@@ -51,7 +51,7 @@ graph TD
 | Compile Stack | “Translation assembly line”           | Preprocessing → compiler → assembler → linker     |
 | CLI Args      | “Dynamic params from shell”           | argc = count, argv = input set                    |
 
-## 📣 ⌬ Insight Claims
+## 4. 📣 ⌬ Insight Claims
 
 | ⌬ ID | Claim Statement                                            | Trigger Point      | Verified In                         |
 | ---- | ---------------------------------------------------------- | ------------------ | ----------------------------------- |
@@ -60,7 +60,7 @@ graph TD
 | 023  | "Encryption is a function: char → normalized → mapped"     | During pset        | `logs/2025-05-25-week-02-arrays.md` |
 | 024  | "Output structure is a mirror of input logic clarity"      | Caesar/Readability | `reflect.md`                        |
 
-## 🚧 Blockers / Ambiguities
+## 5. 🚧 Blockers & Ambiguities
 
 - Is it acceptable to reuse real-world crypto patterns in simplified Caesar?
 - When does `argv[1]` not exist even if typed in terminal?
@@ -68,13 +68,13 @@ graph TD
 
 These were explored or partially addressed during debugging, but not yet escalated.
 
-## 🧪 Tests / Self-Checks
+## 7. 🧪 Tests & Self-Checks
 
 1. Explain why `POINTS[c - 'A']` is valid for uppercase only.
 2. Write a `rotate()` function that preserves case and skips non-alpha characters.
 3. Design test cases for a substitution cipher that would trigger duplicate key errors.
 
-## 📃 Trace Log / Learning Path
+## 8. Trace Log & Learning Path
 
 - [x] Analyzed lecture (compiling, memory, strings)
 - [x] Completed Scrabble.c → array + ASCII practice
@@ -85,7 +85,7 @@ These were explored or partially addressed during debugging, but not yet escalat
 - [x] Maintained \~2–4h buffer between submit50 cycles
 - [ ] Pushed `reflect.md`, `claim.md` to output
 
-## 🔁 Linked Protocol Loops
+## 9. 🔁 Linked Protocol Loops
 
 | Loop Phase | Linked File                                       |
 | ---------- | ------------------------------------------------- |
